@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #a6daf2;
+}
+
+li a {
+  display: block;
+  color: #3300ff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.nav {
+  background-color: #e09916;
+  color: white;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+fieldset{
+width: fit-content;
+padding: 6px;
+}
+</style>
+</head>
+<body>
+
+    <fieldset>
+<ul>
+  <li><a class="nav" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#css">CSS</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#bootstrap">Bootstrap</a></li>
+</ul>
+</fieldset>
+</body>
+</html>
